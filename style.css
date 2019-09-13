@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 nav {
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
+    
     align-items: center;
     min-height: 8vh;
 }
 .navbar_items {
-    display: flex;
-    justify-content: space-around;
+    display: inline-block;
+    
     width: 40%;
     
 }
