@@ -1,22 +1,26 @@
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
 nav {
-    display: inline-block;
-    
     align-items: center;
     min-height: 8vh;
-}
-.navbar_items {
     display: inline-block;
-    
-    width: 40%;
-    
 }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  li {
+    display: inline-block;
+  }
+  li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 .logo {
+    display: inline-block;
     letter-spacing: 5px;
     font-size: 20px;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
