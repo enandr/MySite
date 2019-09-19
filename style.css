@@ -1,38 +1,17 @@
+/* ------ Variables For Colors ------ */
+:root {
+  /* var(--main_text_color) Below sets the universal text color */
+  --main_text_color: white;
+  /* var(--main_text_color_alt) */
+  --main_text_color_alt: red;
+  /* var(main_text_color_hover) Below sets the hover color */
+  --main_text_color_hover: red;
+}
 body{
-  /* background-color: #212121; */
-  background-image: radial-gradient(#252425, #141414);
+  /* background-image: radial-gradient(#252425, #141414); */
+  background-image: radial-gradient(#252425, black);
   background-size: 100%;
   user-select: none;
-}
-footer {
-  position: fixed;
-  right: 2%;
-  bottom: 2%;
-  color: white;
-}
-.social_buttons{
-  right: 2%;
-}
-.nav_links {
-  position: fixed;
-  left: 5%;
-  bottom: 4%;
-}
-.nav_link_item {
-  padding: 10px;
-  text-decoration: none;
-  margin: 20px;
-  background-color: rgba(255, 255, 255, 0);
-  border-color: white;
-  border-width: 2px;
-  border-radius: 11px;
-  color: white;
-  font-family: 'Dosis', sans-serif;
-  font-size: 2vh;
-}
-.nav_link_item:hover{
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.171);
 }
 /* .center {
 
@@ -71,7 +50,7 @@ footer {
   border-color: white;
   border-width: 2px;
   border-radius: 11px;
-  color: white;
+  color: var(--main_text_color);
   font-family: 'Dosis', sans-serif;
   font-size: 4vh;
   outline: none;
@@ -83,10 +62,43 @@ p{
   margin: 0;
 }
 .white{
-  color: white;
+  color: var(--main_text_color);
 }
 .red{
-  color: red;
+  color: var(--main_text_color_alt);
+  font-size: 1.15em;
+}
+/*------ Footer Content Below ------*/
+footer {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  color: var(--main_text_color);
+  font-weight: bold;
+}
+.social_buttons{
+  right: 2%;
+}
+.nav_links {
+  position: fixed;
+  left: 5%;
+  bottom: 4%;
+}
+.nav_link_item {
+  padding: 10px;
+  text-decoration: none;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: white;
+  border-width: 2px;
+  border-radius: 11px;
+  color: var(--main_text_color);
+  font-family: 'Dosis', sans-serif;
+  font-size: 2vh;
+}
+.nav_link_item:hover{
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.171);
 }
 .fa {
   padding: 20px;
@@ -106,6 +118,13 @@ p{
   color: white;
 }
 .fa-linkedin {
-  background: #007bb5;
+  background-color: #007bb5;
   color: white;
+}
+.fa-github {
+  background-color: white;
+  color: rgb(37,41,45);
+}
+.home_link {
+  color: var(--main_text_color_alt);
 }
