@@ -1,26 +1,66 @@
-nav {
-    align-items: center;
-    min-height: 8vh;
-    display: inline-block;
+body{
+  /* background-color: #212121; */
+  background-image: radial-gradient(#252425, #141414);
+  background-size: 100%;
+
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-  }
-  
-  li {
-    display: inline-block;
-  }
-  li a {
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-.logo {
-    display: inline-block;
-    letter-spacing: 5px;
-    font-size: 20px;
-    /* margin-left: auto; */
+.intro_content{
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Dosis', sans-serif;
+  font-size: 7vh;
+}
+.main_content {
+  display: none;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: 'Dosis', sans-serif;
+  font-size: 7vh;
+}
+.button{
+  margin: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: white;
+  border-width: 2px;
+  border-radius: 11px;
+  color: white;
+  font-family: 'Dosis', sans-serif;
+  font-size: 4vh;
+  outline: none;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.171);
+}
+p{
+  margin: 0;
+}
+.white{
+  color: white;
+}
+.red{
+  color: red;
+}
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #007bb5;
+  color: white;
+  position: fixed;
+  right: 2%;
+}
+.fa:hover {
+  opacity: 0.7;
 }
