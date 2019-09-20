@@ -169,19 +169,3 @@ footer {
   color: var(--main_text_color_alt);
 }
 
-@media only screen and (max-width: 1100px){
-  .intro_button{
-    /* margin: 20px;
-    padding: 10px 40px; */
-    font-size: 2vh;
-
-  }
-  .content {
-    font-size: 4vh;
-  }
-  .submit_btn {
-    /* margin: 20px;
-    padding: 10px 40px; */
-    font-size: 2vh;
-  }
-}
