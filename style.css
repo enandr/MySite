@@ -43,9 +43,9 @@ body{
   width: 100%;
   text-align: center;
 }
-.button{
+.intro_button{
   margin: 20px;
-  padding: 10px;
+  padding: 10px 40px;
   background-color: rgba(255, 255, 255, 0);
   border-color: white;
   border-width: 2px;
@@ -54,9 +54,11 @@ body{
   font-family: 'Dosis', sans-serif;
   font-size: 4vh;
   outline: none;
+  transition: background-color 100ms linear;
 }
-.button:hover {
-  background-color: rgba(255, 255, 255, 0.171);
+.intro_button:hover {
+  background-color: rgba(255, 255, 255, 0.103);
+  /* width: 220px; */
 }
 p{
   margin: 0;
@@ -67,6 +69,40 @@ p{
 .red{
   color: var(--main_text_color_alt);
   font-size: 1.15em;
+}
+/* ------ Form ------ */
+.contact_form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 50%;
+}
+.form_label {
+  color: white;
+  font-size: 1rem;
+}
+.form_input {
+  border-radius: 5px;
+  font-size: .3em;
+}
+.message {
+  height: 20%;
+}
+.submit_btn {
+  margin: 20px;
+  padding: 10px 40px;
+  background-color: rgba(255, 255, 255, 0);
+  border-color: white;
+  border-width: 2px;
+  border-radius: 11px;
+  color: var(--main_text_color);
+  font-family: 'Dosis', sans-serif;
+  font-size: 4vh;
+  outline: none;
+  transition: background-color 100ms linear;
+}
+.submit_btn:hover {
+  background-color: rgba(255, 255, 255, 0.103);
 }
 /*------ Footer Content Below ------*/
 footer {

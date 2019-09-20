@@ -1,7 +1,7 @@
 $('document').ready(initApp);
 function initApp(){
-    // $('.intro_content').css('display','flex');
-    $('.button, .nav_link_item').click(clickEvent);
+    $('.intro_button, .nav_link_item').click(clickEvent);
+    $('.submit_btn').click(formSubmit);
 }
 function clickEvent(){
     var theSelected = this.innerText;
@@ -33,4 +33,13 @@ function clickEvent(){
             break;    
     }
 
+}
+function formSubmit (){
+    var nameBox = $('.name').val();
+    var emailBox = $('.email').val();
+    var phoneBox = $('.phone').val();
+    var messageBox = $('.message').val();
+    $('.name, .email, .phone, .message').val("");
+    console.log(nameBox+" : "+emailBox+" : "+phoneBox+" : "+messageBox);
+    alert("For testing reasons only, message is not sent. Your inputs were: Name:"+nameBox+" Email: "+emailBox+" Phone: "+phoneBox+" Message: "+messageBox);
 }
