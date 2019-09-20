@@ -13,7 +13,7 @@
 }
 body{
   /* background-image: radial-gradient(#252425, #141414); */
-  background-image: radial-gradient(var(--main_gradiant_start), var(--main_gradiant_final));
+  background-image: radial-gradient(#202020, black);
   background-size: 100%;
   user-select: none;
 }
@@ -168,4 +168,9 @@ footer {
 .home_link {
   color: var(--main_text_color_alt);
 }
-
+.burger_container{
+  display: none;
+}
+.mobile_nav {
+  display: none;
+}

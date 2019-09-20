@@ -1,11 +1,43 @@
 .intro_button{
-    font-size: 3vh;
-    width: 300px;
+    font-size: 2vh;
+    width: 60%;
 
   }
   .content {
-    font-size: 4vh;
+    font-size: 3vh;
   }
   .submit_btn {
     font-size: 2vh;
+    padding: 10px 60%;
+    align-self: center;
+    white-space: nowrap;
+  }
+  .fa {
+    font-size: 3vh;
+    width: 3vh;
+    height: 3vh;
+    margin-right: 15px;
+  }
+  body{
+    /* background-image: radial-gradient(#252425, #141414); */
+    background-image: radial-gradient(#303030, black);
+    overflow: hidden;
+  }
+  .burger_container{
+    display: flex;
+  }
+  .hamburger{
+      color:white;
+      font-size: 4vh;
+      position: fixed;
+      left: 3%;
+      bottom: 3%;
+
+  }
+  .nav_links{
+      display: none;
+  }
+  .mobile_nav {
+      display: none;
+      flex-direction: column;
   }
