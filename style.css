@@ -39,6 +39,14 @@ body{
 .about_me_content {
   display: none;
 }
+.title_text {
+  margin-bottom: 30px;
+}
+.aboutP {
+  font-size: .5em;
+  width: 60%;
+  text-align: center;
+}
 .contact_content {
   display: none;
 }
@@ -173,4 +181,11 @@ footer {
 }
 .mobile_nav {
   display: none;
+}
+div {
+  display: inline-block;
+  text-align: center;
+}
+.inside {
+  display:inline-block;
 }
