@@ -3,13 +3,17 @@
   /* var(--main_text_color) Below sets the universal text color */
   --main_text_color: white;
   /* var(--main_text_color_alt) */
-  --main_text_color_alt: red;
-  /* var(main_text_color_hover) Below sets the hover color */
+  --main_text_color_alt: rgb(170, 5, 5);
+  /* var(--main_text_color_hover) Below sets the hover color */
   --main_text_color_hover: red;
+  /* var(--main_gradiant_final) */
+  --main_gradiant_final: black;
+  /* var(--main_gradiant_start) */
+  --main_gradiant_start: #202020;
 }
 body{
   /* background-image: radial-gradient(#252425, #141414); */
-  background-image: radial-gradient(#252425, black);
+  background-image: radial-gradient(var(--main_gradiant_start), var(--main_gradiant_final));
   background-size: 100%;
   user-select: none;
 }
@@ -163,4 +167,21 @@ footer {
 }
 .home_link {
   color: var(--main_text_color_alt);
+}
+
+@media only screen and (max-width: 1100px){
+  .intro_button{
+    /* margin: 20px;
+    padding: 10px 40px; */
+    font-size: 2vh;
+
+  }
+  .content {
+    font-size: 4vh;
+  }
+  .submit_btn {
+    /* margin: 20px;
+    padding: 10px 40px; */
+    font-size: 2vh;
+  }
 }
