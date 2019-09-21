@@ -82,6 +82,9 @@ p{
   color: var(--main_text_color_alt);
   font-size: 1.15em;
 }
+.redNav {
+  color :red;
+}
 /* ------ Form ------ */
 .contact_form {
   display: flex;

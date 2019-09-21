@@ -20,7 +20,7 @@
   }
   body{
     /* background-image: radial-gradient(#252425, #141414); */
-    background-image: radial-gradient(#474747, black);
+    background-image: radial-gradient(#202020, black);
     overflow: hidden;
   }
   .burger_container{
