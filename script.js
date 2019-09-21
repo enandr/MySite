@@ -1,4 +1,5 @@
 $('document').ready(initApp);
+
 function initApp(){
     $('.intro_button, .nav_link_item').click(clickEvent);
     $('.submit_btn').click(formSubmit);
@@ -33,6 +34,9 @@ function clickEvent(){
             $('.home_link, .about_link, .work_link').css('color',textMainColor);
             $('.mobile_nav').css('display','none');
             mNavShowing = false;
+            break;
+        case "Resume":
+            alert("Havent Uploaded The Resume Yet!");
             break;
         default:
             $('.intro_content').css('display','flex');
