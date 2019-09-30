@@ -49,3 +49,7 @@
   p {
     text-align: center;
   }
+  .aboutP {
+    text-align: left;
+    font-size: 3rem;
+  }

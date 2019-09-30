@@ -13,7 +13,7 @@
 }
 body{
   /* background-image: radial-gradient(#252425, #141414); */
-  background-image: radial-gradient(#202020, black);
+  background-image: radial-gradient(#272727, black);
   background-size: 100%;
   user-select: none;
 }
@@ -65,10 +65,11 @@ body{
   font-family: 'Dosis', sans-serif;
   font-size: 4vh;
   outline: none;
-  transition: background-color 100ms linear;
+  transition: color 150ms linear;
 }
 .intro_button:hover {
-  background-color: rgba(255, 255, 255, 0.103);
+  /* background-color: rgba(255, 255, 255, 0.103); */
+  color: var(--main_text_color_alt);
   /* width: 220px; */
 }
 p{
