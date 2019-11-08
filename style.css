@@ -1,0 +1,27 @@
+:root {
+  /* var(--main_text_color) Below sets the universal text color */
+  --main_text_color: white;
+  /* var(--main_text_color_alt) */
+  --main_text_color_alt: rgb(170, 5, 5);
+  /* var(--main_text_color_hover) Below sets the hover color */
+  --main_text_color_hover: red;
+  /* var(--main_gradiant_final) */
+  --main_gradiant_final: black;
+  /* var(--main_gradiant_start) */
+  --main_gradiant_start: #202020;
+}
+body{
+  background-image: radial-gradient(#272727, black);
+  background-size: 100%;
+  user-select: none;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.container{
+  height:100%;
+}
+.links{
+  position:fixed;
+  bottom:30px;
+}
